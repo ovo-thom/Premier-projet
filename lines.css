@@ -1,0 +1,145 @@
+#hero
+{
+	background: url(img/fond.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+	padding-bottom: 1%;
+	height: 100%;
+	
+}
+
+nav
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	font-size: 1.8em;
+	padding bottom: 20px;
+}
+
+h1
+{
+	color: seagreen;
+	font-size: 3em;
+}
+
+.intro
+{
+	font-size: 1.3em;
+	color: palegreen;
+}
+
+a:hover
+{
+	color: green;
+}
+
+#bandeau
+{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#contenu 
+{
+	text-align: center;
+	padding: 2%;
+
+}
+
+#contenu a
+{
+color: darkred;
+border: 1px solid darkred;
+border-radius: 15px;
+padding: 20px;
+transition: ease 1s;
+}
+
+#contenu a:hover
+{
+color: white;
+background-color: rgba(178, 32, 19, 0.8);
+}
+
+#contenu img:hover
+{
+	transform: rotate(360deg) scale(1.5);
+}
+
+#contenu img
+{
+	transition: 0.2s;
+}
+a
+{
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	transition: 1s;
+}
+
+
+html
+{
+	font-family: arial;
+	font-size: 16px;
+}
+
+#apropos
+{
+	display: flex;
+}
+
+#apropos_image img
+{
+	flex: 1;
+	max-width: 100%;
+
+}
+
+
+#apropos_image 
+{
+	padding: 20px;
+	flex: 1;
+	
+
+}
+
+#apropos_texte
+{
+	padding: 20px;
+	flex: 2;
+	text-align: justify;
+}
+
+#services
+{
+	display: flex;
+	background-color: #666;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.services_item p
+{
+	text-align: justify;
+	padding: 20px;
+}
+
+@media screen and (max-width: 414px) {
+	#apropos{
+     flex-direction: column;
+	}
+	#services{
+		flex-direction: column;
+	}
+	
+		nav a{
+			display: block;
+			padding: 10px;
+		}
+	}
+
